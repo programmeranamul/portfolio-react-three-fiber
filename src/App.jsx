@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import ServiceSummary from "./components/ServiceSummary";
+import About from "./components/About";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <ServiceSummary />
       <Services />
+      <About />
     </ReactLenis>
   );
 }
