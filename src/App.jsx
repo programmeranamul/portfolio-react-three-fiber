@@ -1,6 +1,7 @@
 import "./App.css";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 import ServiceSummary from "./components/ServiceSummary";
 
 function App() {
@@ -9,10 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <ServiceSummary />
-      <div className="min-h-screen"></div>
-      <div className="min-h-screen"></div>
-      <div className="min-h-screen"></div>
-      <div className="min-h-screen"></div>
+      <Services />
     </main>
   );
 }
