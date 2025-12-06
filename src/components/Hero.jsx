@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AnimatedHeaderSection from "./AnimatedHeaderSection";
 import { Canvas } from "@react-three/fiber";
 import { Planet } from "./Planet";
-import { Environment, Float, Lightformer } from "@react-three/drei";
+import { Environment, Float, Lightformer, useProgress } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 
 function Hero() {
+
+
 
   const isMobile = useMediaQuery({ maxWidth: 853 });
 
   const text = `I help growing brands and startups gain an
 unfair advantage through premium
 results driven webs/apps`;
+
+
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
