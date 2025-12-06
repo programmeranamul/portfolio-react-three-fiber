@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import ServiceSummary from "./components/ServiceSummary";
 import About from "./components/About";
 import Works from "./components/Works";
+import ContactSummary from "./components/ContactSummary";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <About />
       <Works />
+      <ContactSummary />
     </ReactLenis>
   );
 }
